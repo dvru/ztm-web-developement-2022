@@ -23,6 +23,10 @@ p {
     font-size: 25px; 
 }
 
+img {
+    float: right;
+}
+
 li {
     list-style: none;
     display: inline-block;
@@ -41,4 +45,10 @@ li {
 }
 #div2 {
     background: lightcyan 
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white
 }

@@ -10,19 +10,17 @@ body {
     background-size: cover;
 }
 
-h2, p {
+h2 , p {
     color: #FFCFC4;
-    /* text-align: center; */
+    text-align: center;
     border: 5px dashed grey;
     cursor: pointer;
 }
 
 p {
-    color: blue
-}
-
-p {
-    color: green
+    color: green;
+    text-transform: uppercase;
+    font-size: 25px; 
 }
 
 li {

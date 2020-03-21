@@ -1,11 +1,11 @@
-/* Selector {
+/* /* Selector {
     Property: value;
 } */
 /* * {
     text-align: right;
 } */
 
-body {
+/* body {
     background-image: url(face.png);
     background-size: cover;
 }
@@ -51,4 +51,4 @@ footer {
     clear: both;
     text-align: center;
     color: white
-}
+} */ 

@@ -5,3 +5,8 @@
 .btn-secondary:hover {
     background-color: red;
 }
+
+.col {
+    background-color: lightcyan;
+    border: 2px solid black;
+}

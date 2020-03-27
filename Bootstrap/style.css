@@ -10,3 +10,32 @@ html {
   background-size: cover;
 }
 
+h1 {
+  font-size: 3rem;
+  color: lightgray;}
+
+hr {
+  border-color: salmon;
+  border-width: 3px;
+  max-width: 80px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: lightsalmon;
+  border-color: lightsalmon;
+}
+.btn-primary:hover {
+  background-color: salmon;
+  border-color: salmon;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}

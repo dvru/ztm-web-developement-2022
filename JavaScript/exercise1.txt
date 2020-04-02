@@ -9,7 +9,7 @@
 5 - "4" = 1
 10 % 5 = 0
 5 % 10 = 5
-"Java" + "Script" = JavaScript
+"Java" + "Script" = "JavaScript"
 " " + " " = "   "
 " " + 0 = " 0"
 true + true = 2
@@ -29,9 +29,11 @@ false - true = -1
 "B" < "C" = TRUE
 "a" > "A" = true
 "b" < "A" = false 
-true === falsetrue 
+true === false = false
 true != true = false
 
 
 // Make the string: "Hi There! It's "sunny" out" by using the + sign:
 "Hi " +  "there!" + " It\'s" + " \"sunny\"" + " out"
+
+"Hi There! " + "It\'s \"sunny\" out"

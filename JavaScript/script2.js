@@ -1,7 +1,7 @@
 // JAVASCRIPT DATA STRUCTURES
 // array & objects
 
-//// ARRAY 
+//// ARRAY ex: to do list
 var list = ["tiger", "cat", "bear", "bird"]
 // console.log(list[0][2]);
 
@@ -27,12 +27,16 @@ console.log("apple"); }];
 var functionList = [function apple() { console.log("apple"); 
 }]
 
-//// OBJECTS
+//// OBJECTS ex: information about user
 var user = {
     name: "D",
     age: 25,
     hobby: "dance",
     isMarried: false,
+    spells: ["abra", "ka", "dabra"],
+    shout: function() {
+        console.log("AHHHH");
+    }
 };
 
 user.favoriteFood = "spinach";
@@ -43,3 +47,14 @@ user.isMarried = true;
 // hobby: "dance"
 // isMarried: true
 // favoriteFood: "spinach"
+
+var myList =  [
+    { 
+        username: "bob",
+        password: "smith"
+    },
+    {
+        username: "jess",
+        password: "hi"
+    }
+];

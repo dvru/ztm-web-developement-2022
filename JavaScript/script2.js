@@ -58,3 +58,13 @@ var myList =  [
         password: "hi"
     }
 ];
+
+//// NULL object is empty. 
+var emptyObj = {}
+undefined
+var nullObj = null;
+undefined
+emptyObj
+{}
+nullObj
+null

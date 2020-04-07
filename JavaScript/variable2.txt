@@ -1,4 +1,3 @@
-
 // Evaluate what answers you would get if you ran this in the
 // Javascript Console in Google Chrome. Answer the questions then 
 // check them by copying them and running it in the console yourself 

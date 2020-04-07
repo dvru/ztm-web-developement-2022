@@ -1,49 +1,50 @@
-// 3 + 3;
-
-// // if (3+3 === 6) {
-// //     alert("You're Smart!");
-// // }
+3 + 3;
 
 // if (3+3 === 6) {
-//     console.log("You're Smart!");
+//     alert("You're Smart!");
 // }
 
-// function sayHello() {
-//     console.log("Hello");
-// }
+if (3+3 === 6) {
+    console.log("You're Smart!");
+}
 
-// sayHello();
+function sayHello() {
+    console.log("Hello");
+}
 
-// var sayBye = function() {
-//     console.log("Bye");
-// }
+sayHello();
 
-// sayBye();
+var sayBye = function() {
+    console.log("Bye");
+}
 
-// function sing() {
-//     console.log("ahhh")
-//     console.log("teee")
-// }
+sayBye();
 
-// sing();
+
+function sing() {
+    console.log("ahhh")
+    console.log("teee")
+}
+
+sing();
  
-// function sing(song) {
-//     console.log(song);
-// }
+function sing(song) {
+    console.log(song);
+}
 
-// sing("laaa dee daa");
-// sing("laaa dee daa");
-// sing("laaa dee daa");
+sing("laaa dee daa");
+sing("laaa dee daa");
+sing("laaa dee daa");
 
 
-// function multiply(a, b) {
-//     if (a > 10 || b > 10) {
-//         return "thats hard";
-//     } else {
-//         return a * b;
-//         }
-//     }
-// multiply(5, 10);
+function multiply(a, b) {
+    if (a > 10 || b > 10) {
+        return "thats hard";
+    } else {
+        return a * b;
+        }
+    }
+multiply(5, 10);
 
 
 

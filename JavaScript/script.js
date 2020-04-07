@@ -36,11 +36,14 @@
 // sing("laaa dee daa");
 
 
-function multiply(a, b) {
-    if (a > 10 || b > 10) {
-        return "thats hard";
-    } else {
-        return a * b;
-        }
-    }
-multiply(5, 10);
+// function multiply(a, b) {
+//     if (a > 10 || b > 10) {
+//         return "thats hard";
+//     } else {
+//         return a * b;
+//         }
+//     }
+// multiply(5, 10);
+
+
+

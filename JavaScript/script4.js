@@ -27,6 +27,7 @@ function thisIsAFucntion() {
 
 thisIsAFucntion()
 
+
 var obj = {
     thisIsAMethod: function() {
 

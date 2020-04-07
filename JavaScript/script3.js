@@ -1,5 +1,4 @@
 //Facebook APP
-
 var database = [
     {
         username: "d-money",
@@ -24,7 +23,7 @@ var passwordPrompt = prompt("What's your password?");
 function signIn(user, pass) {
     if (user === database[0].username && 
         pass === database[0].password) {
-            console.log(newsFeed);
+        console.log(newsFeed);
     } else { 
         alert("Wrong info Bro!");
     }

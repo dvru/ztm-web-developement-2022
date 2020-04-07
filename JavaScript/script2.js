@@ -1,6 +1,9 @@
-// ARRAY
+// JAVASCRIPT DATA STRUCTURES
+// array & objects
+
+//// ARRAY 
 var list = ["tiger", "cat", "bear", "bird"]
-console.log(list[0][2]);
+// console.log(list[0][2]);
 
 // list.shift();
 // "tiger"
@@ -23,3 +26,11 @@ console.log("apple"); }];
 
 var functionList = [function apple() { console.log("apple"); 
 }]
+
+//// OBJECTS
+var user = {
+    name: "D",
+    age: 25,
+    hobby: "dance",
+    isMarried: false,
+};

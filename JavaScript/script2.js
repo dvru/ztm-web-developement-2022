@@ -34,3 +34,12 @@ var user = {
     hobby: "dance",
     isMarried: false,
 };
+
+user.favoriteFood = "spinach";
+user.isMarried = true;
+// {name: "D", age: 25, hobby: "dance", isMarried: true, favoriteFood: "spinach"}
+// name: "D"
+// age: 25
+// hobby: "dance"
+// isMarried: true
+// favoriteFood: "spinach"

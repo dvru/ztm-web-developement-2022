@@ -5,7 +5,6 @@ var deleteBtns = document.getElementsByClassName("delete");
 var items = ul.getElementsByTagName("li");
 
 
-
 //add event listener to first 6 btns in HTML file
 for(var i = 0; i < deleteBtns.length; i++){
 	deleteBtns[i].addEventListener("click", removeParent, false);

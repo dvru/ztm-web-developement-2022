@@ -17,13 +17,19 @@ var todos = [
 // }
 
 var todoslength = todos.length;
-for (var i=0; i < todoslength; i++) {
-    console.log(todos[i]); 
+// for (var i=0; i < todoslength; i++) {
+//     console.log(todos[i]); 
+// }
+
+function logTodos(todo, i) {
+    console.log(todo, i);
 }
 
-todos.forEach(function(todo, i) {
-    console.log(todo, i);
-})
+todos.forEach(logTodos);
+
+// todos.forEach(function(todo, i) {
+//     console.log(todo, i);
+// })
 
 
 /// WHILE LOOP

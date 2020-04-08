@@ -8,6 +8,7 @@
 var firstName = "Damini"
 var lastName = "Varu"
 
+
 // create a variable that holds the answer // of "firstName" + " " + "lastName"
 var fullName = "firstName" + " " + "lastName"
 

@@ -33,8 +33,8 @@ You didn't see the function being called like this as you may have expected:
 button.addEventListener("click", addListAfterClick());
 input.addEventListener("keypress", addListAfterKeypress(event));
 
-
 This is something called a callback function. 
+
 When that line of javascript runs, 
 we don't want the addListAfterClick function to run 
 because we are just adding the event listener now to wait for click or keypress. 

@@ -1,0 +1,19 @@
+add event listener accepts two params
+
+When you Click Button:
+
+button.addEventListener("click", function() {
+   console.log("CLICK!!");
+})
+
+When the Mouse Enters:
+
+button.addEventListener("mouseenter", function() {
+    console.log("CLICK!!");
+ })
+
+When the Mouse Leaves:
+
+button.addEventListener("mouseleave", function() {
+   console.log("CLICK!!");
+ })

@@ -1,1 +1,1 @@
-var button = document.getElementsByTagName("button")[0];
+// var button = document.getElementsByTagName("button")[0];

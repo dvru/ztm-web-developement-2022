@@ -18,9 +18,12 @@ var todos = [
 
 var todoslength = todos.length;
 for (var i=0; i < todoslength; i++) {
-    todos.pop(); 
+    console.log(todos[i]); 
 }
 
+todos.forEach(function(todo, i) {
+    console.log(todo, i);
+})
 
 
 /// WHILE LOOP
@@ -43,4 +46,4 @@ for (var i=0; i < todoslength; i++) {
 // do {
 //     console.log("do while", counterTwo);
 //     counterTwo--;
-// } while (counterTwo > 10);
+// } while (counterTwo > 10)

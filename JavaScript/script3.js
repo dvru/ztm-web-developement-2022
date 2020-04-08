@@ -22,20 +22,35 @@ var newsFeed = [
     {
         username: "Sally",
         timeline: "Oh girl"
+    },
+    {
+        username: "jake",
+        timeline: "daaamn"
     }
 ];
 
+function isUserValid(username, password){
+    for (var i=0; i < database.length; i++){
+        if(database[i].username === username && 
+            database[i].password === password) {
+                return true;
+        }
+    }
+    return false;
+}
+
+function signIn(username, password) {
+   console.log(isUserValid(username, password));
+    // if (user === database[0].username && 
+    //     pass === database[0].password) {
+    //     console.log(newsFeed);
+    // } else { 
+    //     alert("Wrong info Bro!");
+    // }
+}
+
 var userNamePrompt = prompt("What's your username?");
 var passwordPrompt = prompt("What's your password?");
-
-function signIn(user, pass) {
-    if (user === database[0].username && 
-        pass === database[0].password) {
-        console.log(newsFeed);
-    } else { 
-        alert("Wrong info Bro!");
-    }
-}
 
 signIn(userNamePrompt, passwordPrompt);
 

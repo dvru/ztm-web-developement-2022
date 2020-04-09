@@ -7,7 +7,9 @@ function q1() {
         a = 3;
     }
     alert(a);
-}
+} 
+///////////////////// 3 
+
 
 //#2
 var a = 0;
@@ -18,7 +20,7 @@ function q2() {
 function q22() {
     alert(a);
 }
-
+//////////////////// 5
 
 //#3
 function q3() {
@@ -29,6 +31,8 @@ function q3() {
 function q32() {
     alert(a);
 }
+//////////////////// hello 
+
 
 //#4
 var a = 1;
@@ -36,6 +40,7 @@ function q4() {
     var a = "test";
     alert(a);
 }
+//////////////////// test
 
 //#5
 var a = 2;
@@ -44,3 +49,5 @@ if (true) {
     alert(a);
 }
 alert(a);
+
+//////////////////// 5

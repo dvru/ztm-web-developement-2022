@@ -12,23 +12,25 @@ var fun = 5;
 function funFunction() {
     //child scope
     var fun = "hellooo";
-    console.log(fun);
+    console.log(1, fun);
 }
 
 function funerFunction() {
     //child scope
     var fun = "Byee";
-    console.log(fun);
+    console.log(2, fun);
 }
 
 function funnestFunction() {
     //child scope
     fun = "Ahhhh";
-    console.log(fun);
+    console.log(3, fun);
 }
 
-console.log(fun);
-
+console.log("window", fun);
+funFunction();
+funerFunction();
+funnestFunction();
 
 
 

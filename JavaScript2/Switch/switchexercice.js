@@ -9,6 +9,7 @@ function experiencePoints() {
 
 var experiencePoints = winBattle() ? 10 : 1;
 
+
 //Using this function, answer the questions below:
 function moveCommand(direction) {
     var whatHappens;

@@ -1,13 +1,13 @@
 // let + const 
 //const stands for constant
 
-const player = "bobby";
+const gamePlayer = "bobby";
 let experience = 100;
-let wizardLevel = false;
+let Level = false;
 
 if (experience > 90) {
-    let wizardLevel = true;
-    console.log('inside', wizardLevel);
+    let Level = true;
+    console.log('inside', Level);
 }
 
-console.log('outside', wizardLevel);
+console.log('outside', Level);

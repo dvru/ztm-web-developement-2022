@@ -19,6 +19,7 @@ function moveCommand(direction) {
     return whatHappens;
 }
 
+
 // cleaner than else if
 // if no cases work, then return default
 // break is saying, break out of switch statement

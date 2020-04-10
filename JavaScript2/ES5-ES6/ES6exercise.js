@@ -16,7 +16,6 @@ const person = {
 };
 
 
-
 var firstName = person.firstName;
 var lastName = person.lastName;
 var age = person.age;

@@ -43,3 +43,6 @@ compose(sum, sum)(5)
 // f and g are sum
 // a is 5 
 // 
+
+/////////////// IMPORTANT 
+// Avoiding Side Effects, functional purity

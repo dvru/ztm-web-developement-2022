@@ -20,3 +20,10 @@ const first = () => {
 
 const newFunc = first();
 newFunc();
+
+// Closures: 
+//a function ran. 
+// the function executed. 
+// It's never going to execute again.
+// BUT it's going to rememeber that there are reference to those variables
+// so the child scope always has access to the parent scope.

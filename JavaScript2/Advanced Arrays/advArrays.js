@@ -34,6 +34,7 @@ const filterArray = array.filter(num => num === 5)
 console.log('filter', filterArray);
 
 
+
 ////////////////////////// REDUCE: 
 // have to return value
 const reduceArray = array.reduce((accumulator, num) => {

@@ -14,6 +14,7 @@ let { wizardLevel } = obj;
 // let wizardLevel = obj.wizardLevel;
 
 
+
 const name = 'john snow';
 
 const obj = {

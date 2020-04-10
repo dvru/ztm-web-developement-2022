@@ -44,12 +44,14 @@ compose(sum, sum)(5)
 // a is 5 
 // 
 
+
+
 /////////////// IMPORTANT 
 // Avoiding Side Effects, functional purity
-
 var a = 1;
 function b() {
     a = 2;
 }
 //The side effect is the changing the a variable within the function 
 // that effects outside of it
+

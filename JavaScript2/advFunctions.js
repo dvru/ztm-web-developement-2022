@@ -27,3 +27,8 @@ newFunc();
 // It's never going to execute again.
 // BUT it's going to rememeber that there are reference to those variables
 // so the child scope always has access to the parent scope.
+
+//Currying 
+const multiply = (a, b) => a * b;
+const curriedMultiply = (a) => (b) => a * b;
+const multiplyBy5 = curriedMultiply(5);

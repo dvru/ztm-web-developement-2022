@@ -63,7 +63,6 @@ function addToListAfterKeypress(event){
 	}
 }
 
-
 button.addEventListener("click", addToListAfterClick);
 
 input.addEventListener("keypress", addToListAfterKeypress);

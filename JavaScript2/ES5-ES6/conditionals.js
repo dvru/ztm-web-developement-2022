@@ -9,6 +9,7 @@
 // var automatedAnswer = 
 // "Your account # is " + ( isUserValid(false) ? "1234" : "not available")
 
+
 function isUserValid(bool) {
     return bool;
 }

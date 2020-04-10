@@ -32,3 +32,14 @@ newFunc();
 const multiply = (a, b) => a * b;
 const curriedMultiply = (a) => (b) => a * b;
 const multiplyBy5 = curriedMultiply(5);
+
+//Compose
+const compose = (f, g) => (a) => f(g(a));
+
+const sum = (num) => num + 1;
+
+compose(sum, sum)(5)
+
+// f and g are sum
+// a is 5 
+// 

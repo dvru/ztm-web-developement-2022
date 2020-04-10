@@ -42,6 +42,7 @@ function q4() {
 }
 //////////////////// test
 
+
 //#5
 var a = 2;
 if (true) {

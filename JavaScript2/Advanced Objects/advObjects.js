@@ -21,7 +21,7 @@ const object4 = {
 // instantiation
 class Player {
     constructor(name, type){
-        console.log(this)
+        console.log('player',this);
         this.name = name;
         this.type = type;
     }
@@ -33,6 +33,7 @@ class Player {
 class Wizard extends Player {
     constructor(name, type) {
         super(name, type)
+        console.log('wizard',this);
     }
     play() {
         console.log(`I am ${this.type}`);

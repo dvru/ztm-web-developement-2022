@@ -11,6 +11,7 @@ const a = "Simon";
 const b = true;
 const c = {};
 
+
 const obj = { a, b, c }
 // const obj = {
 //     a: a,

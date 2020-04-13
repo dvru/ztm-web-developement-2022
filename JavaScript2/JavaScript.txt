@@ -1,0 +1,8 @@
+What is a Program?
+- It has to allocate memory 
+- parse and execute scripts which means read and run commands
+
+JavaScript Engine 
+Consists of 2 parts:
+- Memory Heap: where memory allocation happens
+- Call stack: where your code is read executed, tells you where you are in the program

@@ -32,3 +32,29 @@ const obj = Object.fromEntries(userProfiles)
 Object.entries(obj)
 
 // {commanderTom: 23, derekZ: 40, hanzel: 18}
+
+
+
+try {
+true + 'hi'
+} catch {
+ console.log('messed up')
+}
+// "truehi"
+
+
+try {
+    bob + 'hi'
+    } catch {
+     console.log('messed up')
+    }
+//  'messed up'
+
+
+try {
+    true + 'hi'
+    } catch (error) {
+     console.log('messed up' + error)
+    }
+//messed upReferenceError: bob is not defined
+//catched the error and console logs it

@@ -14,3 +14,9 @@ What is JavaScript?
 - JavaScript is a single threaded language that can be non-blocking?
 Single threaded means it has only one call stack and only do one thing at a time
 
+Synchronous programing:
+Reading the ladder/line, line by line.
+
+StackOverflow:
+Is when the call stack gets bigger until it doesnt have any space
+ex: Memory leaks

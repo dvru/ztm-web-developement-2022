@@ -5,4 +5,7 @@ What is a Program?
 JavaScript Engine 
 Consists of 2 parts:
 - Memory Heap: where memory allocation happens
+ex: assiging variables
 - Call stack: where your code is read executed, tells you where you are in the program
+ex: console logging values 
+

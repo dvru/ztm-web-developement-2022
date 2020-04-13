@@ -19,9 +19,10 @@ Is when the call stack gets bigger until it doesnt have any space
 ex: Memory leaks
 
 Synchronous programing:
-Reading the ladder/line, line by line.
+Reading the ladder/line, line by line, waits one by one
 
 Asychronous programming:
+send a request, then will respond within time, you can do other things in between.
 
 JavaScript Run-time Environment:
 On top of the Engine there is:

@@ -23,6 +23,7 @@ Reading the ladder/line, line by line, waits one by one
 
 Asychronous programming:
 send a request, then will respond within time, you can do other things in between.
+ex: in between network requests1
 
 JavaScript Run-time Environment:
 On top of the Engine there is:
@@ -36,4 +37,5 @@ CallBack Queue:
 onClick,
 onLoad,
 onDOne.
+^
 Event Loop

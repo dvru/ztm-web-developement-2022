@@ -8,4 +8,9 @@ Consists of 2 parts:
 ex: assiging variables
 - Call stack: where your code is read executed, tells you where you are in the program
 ex: console logging values 
+first in, last out
+
+What is JavaScript?
+- JavaScript is a single threaded language that can be non-blocking?
+Single threaded means it has only one call stack and only do one thing at a time
 

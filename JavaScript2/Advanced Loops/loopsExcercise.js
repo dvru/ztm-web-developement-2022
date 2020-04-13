@@ -78,6 +78,14 @@ amazonBasket = {
   floss: 100
 }
 
-function checkBasket(basket, lookingFor) {
 
-}
+function checkBasket(basket, lookingFor) {
+    for (item in basket) {
+      if (item === lookingFor) {
+        return `${lookingFor} is in your basket`
+      }
+    }
+    return 'that does not exist in your basket'
+  }
+
+// checkBasket(amazonBasket, "glasses");

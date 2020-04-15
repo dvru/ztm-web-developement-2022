@@ -8,7 +8,6 @@
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  */
-
 ;(function() {
 
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
@@ -17118,7 +17117,10 @@
 },{}],2:[function(require,module,exports){
 var _ = require('lodash');
 
-console.log(_);
+
+var array = [1,2,3,4,5,6,7,8];
+console.log('answer:', _.without(array, 3));
+
 var css = document.querySelector("h3");
 var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");

@@ -7,8 +7,9 @@ Front End Developers:
 
 Back-End Developers:
 - Node server:
-    Node.js
-    Express.js
+    - Node.js
+    - Express.js
+
 - Database:
-    PostgreSQL
-    MongoDB
+    - PostgreSQL
+    - MongoDB

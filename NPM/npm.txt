@@ -1,0 +1,5 @@
+What is NPM?
+npm registry
+
+Packages (or modules):
+Containing package.json file + js file

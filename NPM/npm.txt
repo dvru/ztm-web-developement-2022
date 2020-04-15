@@ -6,3 +6,6 @@ Containing package.json file + js file
 
 npm install -g live-server:
 open live-server as a live server
+
+Resource for npm versions
+https://semver.npmjs.com/

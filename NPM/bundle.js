@@ -10,7 +10,6 @@
  */
 ;(function() {
 
-  
   /** Used as a safe reference for `undefined` in pre-ES5 environments. */
   var undefined;
 
@@ -17117,7 +17116,6 @@
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],2:[function(require,module,exports){
 var _ = require('lodash');
-
 
 var array = [1,2,3,4,5,6,7,8];
 console.log('answer:', _.without(array, 3));

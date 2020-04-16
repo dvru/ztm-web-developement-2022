@@ -6,8 +6,8 @@
 //     .then(() => movePlayer(300, 'Left'))
 
 async function playerStart() {
-    const firstMove = await movePlayer(100, 'Left');
-    await movePlayer(400, 'Left');
-    await movePlayer(10, 'Right');
-    await movePlayer(300, 'Left');
+    const firstMove = await movePlayer(100, 'Left'); //pause
+    await movePlayer(400, 'Left'); //pause
+    await movePlayer(10, 'Right'); //pause
+    await movePlayer(300, 'Left'); //pause
 }

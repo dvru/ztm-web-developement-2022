@@ -29,7 +29,7 @@ async function fetchUsers() {
 
 
 const urls = [
-    'https://jsonplaceholder.typicod.com/users',
+    'https://jsonplaceholder.typicode.com/users',
     'https://jsonplaceholder.typicode.com/posts',
     'https://jsonplaceholder.typicode.com/albums',
 ]

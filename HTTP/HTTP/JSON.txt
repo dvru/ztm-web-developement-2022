@@ -1,0 +1,6 @@
+JSON:
+    JavaScript Object Notation
+    Syntax for storing and exchanging datda
+    Text, written with JavaScript Object Notation
+
+User object send to HTTP and uses JSON.stringify

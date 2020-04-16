@@ -1,5 +1,5 @@
 HTTP:
-Clients and servers 
+Clients and servers -
     can communicate but exchanging individual messages
     The messages sent by the client/web browser are called Request
     The messages sent by the Server are the Responses
@@ -10,3 +10,5 @@ Request:
     PUT: update the data thats sent
     DELETE: delete data on the server
 
+Response:
+    Status Code: 200

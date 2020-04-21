@@ -1,0 +1,54 @@
+/* /* /* Selector {
+    Property: value;
+} */
+/* * {
+    text-align: right;
+} */
+
+body {
+    background-image: url(face.png);
+    background-size: cover;
+}
+
+h2 , p {
+    color: #FFCFC4;
+    text-align: center;
+    border: 5px dashed grey;
+    cursor: pointer;
+}
+
+p {
+    color: green;
+    text-transform: uppercase;
+    font-size: 25px; 
+}
+
+img {
+    float: right;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px dashed black 
+}
+
+.active {
+    color: grey
+}
+
+#div1 {
+    background: white
+}
+#div2 {
+    background: lightcyan 
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: white
+} 

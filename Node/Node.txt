@@ -1,6 +1,0 @@
-Node
-JavaScript that runs on your machine.
-
-Process.
-means what your terminal is processing
-process.exit() >> exits terminal from node

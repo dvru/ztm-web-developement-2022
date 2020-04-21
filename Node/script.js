@@ -1,9 +1,19 @@
- const script2 = require ('./script2.js')
+const script2 = require ('http')
 
-const a = script2.largeNumber;
-const b = 5;
+console.log(script2)
 
-console.log(a + b);
+
+
+
+
+
+
+
+
+// const a = script2.largeNumber;
+// const b = 5;
+
+// console.log(a + b);
 
 // setTimeout(() => {
 //     console.log(a + b);

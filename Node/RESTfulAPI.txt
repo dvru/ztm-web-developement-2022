@@ -1,0 +1,11 @@
+RESTful API:
+uses:
+
+/Get
+    to get a resource
+/Put
+    to change state/update a resource
+/Post   
+    creates a resource
+/Delete
+    removes the resource

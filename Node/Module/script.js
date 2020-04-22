@@ -16,7 +16,14 @@ fs.readFile('./hello.txt', (err, data) => {
 //Sync means Synchronouse
 const file = fs.readFileSync('./hello.txt');
 console.log('2', file.toString());
-
 // returns
 // 2 hellooooooo there!!
 // 1 hellooooooo there!!
+
+
+fs.appendFile('./hello.txt', ' this is so cool!', err => {
+    if (err) {
+        console.log(err)
+    }
+})
+// added to the txt file

@@ -21,9 +21,19 @@ console.log('2', file.toString());
 // 1 hellooooooo there!!
 
 
+// APPEND
 fs.appendFile('./hello.txt', ' this is so cool!', err => {
     if (err) {
         console.log(err)
     }
 })
 // added to the txt file
+
+
+// WRITE
+fs.writeFile('bye.txt', 'Sad to see you go', err => {
+    if (err) {
+        console.log(err)
+    }
+})
+// add bye.txt file to your folder with message

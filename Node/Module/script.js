@@ -37,3 +37,13 @@ fs.writeFile('bye.txt', 'Sad to see you go', err => {
     }
 })
 // add bye.txt file to your folder with message
+
+
+// DELETE
+fs.unlink('./bye.txt', err => {
+    if (err){
+        console.log(err)
+    }
+    console.log('INCEPTION')
+})
+// removes the bye.txt file

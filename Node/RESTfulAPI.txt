@@ -30,3 +30,8 @@ app.get('/', (req, res) => {
 
     res.send("getting root");
 })
+
+
+app.use(express.static(__dirname + '/public'))
+    enters the public/html file and loads it to the broweser
+

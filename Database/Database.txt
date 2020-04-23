@@ -1,0 +1,13 @@
+Database
+    collection of data:
+    data: numbers, user info, password, etc..
+    
+DBMS
+    Database management system:
+    Collection of programs which allows you to access databases 
+
+Relational databases
+    PostgreSQL, Oracle, MySQL, SQLite
+    
+    
+

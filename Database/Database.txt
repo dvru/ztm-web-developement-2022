@@ -15,6 +15,9 @@ Non Relational Database / No SQL
     build apps without having to define a schema
     CouchDb, mongoDb, redis, Cassandra
     
+PostgreSQL
+    GUI
+    Graphical User Interface
 
     
 

@@ -18,6 +18,7 @@ Non Relational Database / No SQL
 PostgreSQL
     GUI
     Graphical User Interface
-
+brew services start postgresql --> Starts the db
+brew services stop postgresql --> Stops the db
     
 

@@ -6,8 +6,15 @@ DBMS
     Database management system:
     Collection of programs which allows you to access databases 
 
-Relational databases
+Relational databases 
+    creating relations within tables to create a schema
+    consist of two or more tables consisting of columns or rows
     PostgreSQL, Oracle, MySQL, SQLite
+
+Non Relational Database / No SQL
+    build apps without having to define a schema
+    CouchDb, mongoDb, redis, Cassandra
     
+
     
 

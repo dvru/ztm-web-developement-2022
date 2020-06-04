@@ -6,9 +6,11 @@ JavaScript Engine
 Consists of 2 parts:
 - Memory Heap: where memory allocation happens
 ex: assiging variables
-- Call stack: where your code is read executed, tells you where you are in the program
-ex: console logging values 
-first in, last out
+
+- Call stack: 
+        where your code is read executed, tells you where you are in the program
+        ex: console logging values 
+        first in, last out
 
 What is JavaScript?
 - JavaScript is a single threaded language that can be non-blocking?
@@ -16,7 +18,7 @@ Single threaded means it has only one call stack and only do one thing at a time
 
 StackOverflow:
 Is when the call stack gets bigger until it doesnt have any space
-ex: Memory leaks
+ex: Memory leaks: memory heap of a javascript engine can overflow
 
 Synchronous programing:
 Reading the ladder/line, line by line, waits one by one
